@@ -52,5 +52,6 @@
   "homepage": "https://github.com/w384/clinkai-dsh-web-search-fallback#readme",
   "bugs": {
     "url": "https://github.com/w384/clinkai-dsh-web-search-fallback/issues"
-  }
+  },
+  "deprecated": "Merged into @clinkai/dsh-web-search-searxng, which registers both the searxng and search-fallback providers from one install."
 }
