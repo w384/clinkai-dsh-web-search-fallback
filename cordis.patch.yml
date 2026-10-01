@@ -1,0 +1,6 @@
+# clinkai-dsh-web-search-fallback bundle patch: mounts the SearXNG-first
+# fallback provider into a profile layer stack. The profile's own
+# cordis.patch.yml and any --patch overlays still apply after this layer.
+- insert:
+    - id: web-search-fallback
+      name: '@clinkai/dsh-web-search-fallback'
